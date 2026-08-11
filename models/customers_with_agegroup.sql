@@ -7,4 +7,4 @@ select
     created_date,
     age,
     age_group
-from {{ ref('customer_age_groups') }}
+from {{ ref('customer_age') }}
