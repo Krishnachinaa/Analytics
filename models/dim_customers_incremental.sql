@@ -8,7 +8,10 @@ from {{ ref('stg_customers') }}
 
 {% if is_incremental() %}
 where created_date > (
-    select max(t.created_date)
-    from {{ this }} as t
+    select max_created_date
+    from (
+        select max(created_date) as max_created_date
+        from {{ this }}
+    )
 )
 {% endif %}
