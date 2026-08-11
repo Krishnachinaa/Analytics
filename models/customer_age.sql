@@ -1,4 +1,4 @@
-{{ config(materialized='ephe') }}
+{{ config(materialized='ephemeral') }}
 
 select
     customer_id,
