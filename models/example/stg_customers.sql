@@ -4,4 +4,4 @@ select
     city,
     created_date,
     age
-from {{ source('raw', 'customers') }}
+from {{ source('ANALYTICS', 'CUSTOMERS') }}
