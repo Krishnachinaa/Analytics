@@ -3,4 +3,4 @@
 select  customer_id,
     customer_name,
     city,
-    created_date FROM {{source('ANALYTICS','CUSTOMERS')}}
+    created_date,age FROM {{source('ANALYTICS','CUSTOMERS')}}
