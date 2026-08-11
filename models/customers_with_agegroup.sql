@@ -3,6 +3,5 @@
 select
     customer_id,
     customer_name,
-    age,
-    age_group
+    age
 from {{ ref('customer_age') }}
