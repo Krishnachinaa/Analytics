@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: ANALYTICS
+    database: ANALYTICS
+    schema: COLLANBI
+    tables:
+      - name: CUSTOMERS
+      - name: ORDERS
