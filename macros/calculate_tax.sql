@@ -1,3 +1,3 @@
-{% macro calculate_tax(amount) %}
-    {{ amount }} * 0.18
+{% macro calculate_tax(order_amount) %}
+    {{ order_amount }} * 0.18
 {% endmacro %}
