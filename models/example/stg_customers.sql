@@ -1,7 +1,5 @@
 -- models/stg_customers.sql
 
-select
-    customer_id,
+select  customer_id,
     customer_name,
-    city
-from {{ source('raw', 'customers') }}
+    city FROM {{source('ANALYTICS','CUSTOMERS')}}
