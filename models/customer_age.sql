@@ -3,6 +3,8 @@
 select
     customer_id,
     customer_name,
+    city,
+    created_date,
     age,
     case
         when age < 18 then 'Under 18'
