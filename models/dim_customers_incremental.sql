@@ -5,7 +5,7 @@
 
 select
     *
-from {{ ref('ANALYTICS','stg_customers') }}
+from {{ ref('stg_customers') }}
 
 {% if is_incremental() %}
 where created_date > (
