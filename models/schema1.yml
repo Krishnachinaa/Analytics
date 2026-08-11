@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: ORDERS
+  - name: ANALYTICS.ORDERS
     columns:
       - name: CUSTOMER_ID
         tests:
