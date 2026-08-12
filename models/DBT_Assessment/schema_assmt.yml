@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: ANALYTICS
+    database: DEV_RAW
+    schema: STAGING
+    tables:
+      - name: CUSTOMER_STG
