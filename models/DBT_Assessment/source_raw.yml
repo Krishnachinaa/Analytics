@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: ANALYTICS
+  - name: RAW
     database: DEV_RAW
     schema: STAGING
     tables:

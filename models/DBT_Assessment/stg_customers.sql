@@ -1,4 +1,4 @@
 {{config(materialized='table')}}
 
-select customer_id , customer_name,city 
+select *
 from {{source('ANALYTICS','CUSTOMER_STG')}}
